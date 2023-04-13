@@ -15,6 +15,9 @@ name2.pack()
 line2=Entry()
 line2.pack()
 
+
+
+
 def save():
     x = line1.get()
     x2 = line2.get()
@@ -24,9 +27,14 @@ def save():
 frame = Frame(master=window, bg = 'blue', borderwidth=3, relief=SUNKEN)
 frame.pack()
 
-clik1 = Button(master=frame, text='Сохранить', command=save)
+clik1 = Button(master=frame, text='Сохранить все', command=save)
 clik1.pack()
 #clik1.place(x=70, y = 150)
+#clik1.place(x=70, y = 150)
+#clik1.place(x=70, y = 150)м#clik1.place(x=70, y = 150)
+#clik1.place(x=70, y = 150)м#clik1.place(x=70, y = 150)
+
+
 
 def Clear():
    x =line1.delete(0, END)
